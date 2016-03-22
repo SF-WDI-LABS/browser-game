@@ -22,6 +22,20 @@ Please Fork & Clone this repo and use it as your starting point.
 * Make sure your stylesheet and JavaScript files are linked in `index.html` (sanity check them!), and also include the CDNs you'll be using (e.g. Bootstrap, jQuery).
 
 
+
+### Best Practices
+* Take very small steps, and test things in your console as you go!
+* **Wireframe** your page layout, and **whiteboard** the different components of your app (data, view/presentation logic, control logic, styles)
+* Write **clean, well-indented code**! Follow this javascript [style guide](https://github.com/airbnb/javascript/tree/master/es5). Make sure you remove unused/commented code!
+* Minimize the use of global variables.
+* Abide by the **separation of concerns** principle with separate HTML, CSS, and JavaScript files.
+* Use **class-based css** rules, and leverage CSS styling.
+* Stick with the **KISS** (Keep It Simple Stupid) and **DRY** (Don’t Repeat Yourself) principles.
+* **Commit early, and commit often**. Write commit messages that describe what you changed in each commit.
+* Don't be afraid to **break your code**. Play in your console. Experiment.
+* Write a helpful **`README.md`** that you or other developers can reference later. See [example-readme](example-readme.md) as a guide, and use this <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet" target="_blank">markdown cheatsheet</a> to help with formatting.
+
+
 ## Requirements
 
 You'll have a choice of games and select one to develop for this project.  Each game will have the following core requirements.
@@ -64,19 +78,6 @@ Some bonus ideas for any game are:
 * Timing: display a **countdown timer** ("3, 2, 1, Go!"), the winning time, or the best time.
 * Integrate with a **3rd party API**: flickr, youtube, spotify, giphy, etc.
 
-
-
-## Best Practices
-* Take very small steps, and test things in your console as you go!
-* **Wireframe** your page layout, and **whiteboard** the different components of your app (data, view/presentation logic, control logic, styles)
-* Write **clean, well-indented code**! Follow this javascript [style guide](https://github.com/airbnb/javascript/tree/master/es5). Make sure you remove unused/commented code!
-* Minimize the use of global variables.
-* Abide by the **separation of concerns** principle with separate HTML, CSS, and JavaScript files.
-* Use **class-based css** rules, and leverage CSS styling.
-* Stick with the **KISS** (Keep It Simple Stupid) and **DRY** (Don’t Repeat Yourself) principles.
-* **Commit early, and commit often**. Write commit messages that describe what you changed in each commit.
-* Don't be afraid to **break your code**. Play in your console. Experiment.
-* Write a helpful **`README.md`** that you or other developers can reference later. See [example-readme](example-readme.md) as a guide, and use this <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet" target="_blank">markdown cheatsheet</a> to help with formatting.
 
 ## Racing Game
 
