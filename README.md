@@ -22,21 +22,27 @@ Please Fork & Clone this repo and use it as your starting point.
 * Make sure your stylesheet and JavaScript files are linked in `index.html` (sanity check them!), and also include the CDNs you'll be using (e.g. Bootstrap, jQuery).
 
 
-## Project Options
+## Requirements
 
-Pick one of the following games to develop. Each game will have the following core requirements:
+Pick one of the following games to develop: racing game, battleship, connect 4, memory. 
+
+Each game will have the following core requirements.
+
+### Core Requirements
 
 **A user should be able to...**
 
 * See a beautiful **game board** on the page
 * **Reset the game** / start a new round
+* See when the game is finished or won
 
 **Technically, your game should include...***
 
 * jQuery for listening to events and/or modifying the DOM
 
+### Bonus Features
 
-Please also attempt at least one bonus feature (or come up with your own!). You must complete all **core** requirements above before moving on to bonuses.
+Please also attempt at least one bonus feature (or come up with your own!). You must complete all **core** requirements above, and all core requirements of the game you choose, before moving on to bonuses.
 
 Some bonus ideas for any game are:
 
@@ -49,12 +55,11 @@ Some bonus ideas for any game are:
 * Integrate with a **3rd party API**: flickr, youtube, spotify, giphy, etc.
 
 
-### Racing Game
+## Racing Game
 
-<img src="https://media.giphy.com/media/mHChlbqGMndYY/giphy.gif" width=>
+<img src="https://media.giphy.com/media/mHChlbqGMndYY/giphy.gif" width=400>
 
-
-#### Minimum Viable Product
+### Minimum Viable Product
 
 **In addition to the core requirements above, a user should be able to...**
 
@@ -62,11 +67,67 @@ Some bonus ideas for any game are:
 * Press a key on their keyboard to **move their player**
 * See the name of the **winner** of the round
 
-#### Bonus Ideas
+### Bonus Ideas
 
-* **Race against a bot**.
-
+* Race against **a bot**.
 * **Instant replay**: record yourself and then race against yourself, in real-time.
+
+
+## Connect 4
+
+<img src="http://www.hamleys.com/images/_lib/connect-4-grid-10222-0-1417083604000.jpg" width=300>
+
+### Minimum Viable Product
+
+**In addition to the core requirements above, a user should be able to...**
+
+* Select a column to drop their piece down, and see the color change where it lands
+* Alternate turns between two players
+
+### Bonus Ideas
+
+* Play against **a bot**
+
+
+## Battleship
+
+<img src="http://blogs-images.forbes.com/erikkain/files/2012/02/battleship-board-game.jpg" width=300>
+
+### Minimum Viable Product
+
+**In addition to the core requirements above, a user should be able to...**
+
+* Select placement of their "ships" at the start of the game
+* Alternate turns between two players
+* Receive a message when they "hit" or "miss" the other player's ship
+* Decide which square of the other player's board to target
+* See their own ships with indicators of where the other player's guesses have hit and missed
+* See where their guesses have hit and missed
+
+### Bonus Ideas
+
+* Display a timer between turns so two players don't see each other's ships
+* Play against **a bot**
+
+
+### Hints
+* Start with just one size of ship
+* Start by building a one-dimensional battleship game that takes place on a single row instead of a square grid
+
+
+
+
+## Memory
+
+<img src="https://img1.etsystatic.com/003/0/7146482/il_570xN.470573231_6gxw.jpg" width=400>
+
+### Minimum Viable Product
+
+**In addition to the core requirements above, a user should be able to...**
+
+* See a series of card "backs"
+* Select two cards at once. If the cards match, both should stay revealed. Otherwise, both should be hidden again. 
+* Win by matching all cards with their duplicates
 
 
 ## Best Practices
