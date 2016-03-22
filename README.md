@@ -24,9 +24,7 @@ Please Fork & Clone this repo and use it as your starting point.
 
 ## Requirements
 
-Pick one of the following games to develop: racing game, battleship, connect 4, memory. 
-
-Each game will have the following core requirements.
+You'll have a choice of games and select one to develop for this project.  Each game will have the following core requirements.
 
 ### Core Requirements
 
@@ -39,6 +37,18 @@ Each game will have the following core requirements.
 **Technically, your game should include...***
 
 * jQuery for listening to events and/or modifying the DOM
+
+### Game Options
+
+ Pick one of the following games to develop: 
+ 
+ * [racing game](#racing-game)
+ 
+ * [connect 4](#connect-4)
+ 
+ * [battleship](#battleship)
+ 
+ * [memory](#memory)
 
 ### Bonus Features
 
@@ -55,80 +65,6 @@ Some bonus ideas for any game are:
 * Integrate with a **3rd party API**: flickr, youtube, spotify, giphy, etc.
 
 
-## Racing Game
-
-<img src="https://media.giphy.com/media/mHChlbqGMndYY/giphy.gif" width=400>
-
-### Minimum Viable Product
-
-**In addition to the core requirements above, a user should be able to...**
-
-* See at least **two players** on the board
-* Press a key on their keyboard to **move their player**
-* See the name of the **winner** of the round
-
-### Bonus Ideas
-
-* Race against **a bot**.
-* **Instant replay**: record yourself and then race against yourself, in real-time.
-
-
-## Connect 4
-
-<img src="http://www.hamleys.com/images/_lib/connect-4-grid-10222-0-1417083604000.jpg" width=300>
-
-### Minimum Viable Product
-
-**In addition to the core requirements above, a user should be able to...**
-
-* Select a column to drop their piece down, and see the color change where it lands
-* Alternate turns between two players
-
-### Bonus Ideas
-
-* Play against **a bot**
-
-
-## Battleship
-
-<img src="http://blogs-images.forbes.com/erikkain/files/2012/02/battleship-board-game.jpg" width=300>
-
-### Minimum Viable Product
-
-**In addition to the core requirements above, a user should be able to...**
-
-* Select placement of their "ships" at the start of the game
-* Alternate turns between two players
-* Receive a message when they "hit" or "miss" the other player's ship
-* Decide which square of the other player's board to target
-* See their own ships with indicators of where the other player's guesses have hit and missed
-* See where their guesses have hit and missed
-
-### Bonus Ideas
-
-* Display a timer between turns so two players don't see each other's ships
-* Play against **a bot**
-
-
-### Hints
-* Start with just one size of ship
-* Start by building a one-dimensional battleship game that takes place on a single row instead of a square grid
-
-
-
-
-## Memory
-
-<img src="https://img1.etsystatic.com/003/0/7146482/il_570xN.470573231_6gxw.jpg" width=400>
-
-### Minimum Viable Product
-
-**In addition to the core requirements above, a user should be able to...**
-
-* See a series of card "backs"
-* Select two cards at once. If the cards match, both should stay revealed. Otherwise, both should be hidden again. 
-* Win by matching all cards with their duplicates
-
 
 ## Best Practices
 * Take very small steps, and test things in your console as you go!
@@ -141,3 +77,83 @@ Some bonus ideas for any game are:
 * **Commit early, and commit often**. Write commit messages that describe what you changed in each commit.
 * Don't be afraid to **break your code**. Play in your console. Experiment.
 * Write a helpful **`README.md`** that you or other developers can reference later. See [example-readme](example-readme.md) as a guide, and use this <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet" target="_blank">markdown cheatsheet</a> to help with formatting.
+
+## Racing Game
+
+<img src="https://media.giphy.com/media/mHChlbqGMndYY/giphy.gif" width=400>
+
+#### Minimum Viable Product
+
+**In addition to the core requirements above, a user should be able to...**
+
+* See at least **two players** on the board
+* Press a key on their keyboard to **move their player** one square 
+* See the name of the **winner** of the round
+
+#### Bonus Ideas
+
+* Race against **a bot**.
+* **Instant replay**: record yourself and then race against yourself, in real-time.
+
+
+## Connect 4
+
+<img src="http://www.hamleys.com/images/_lib/connect-4-grid-10222-0-1417083604000.jpg" width=300>
+
+#### Minimum Viable Product
+
+**In addition to the core requirements above, a user should be able to...**
+
+* Select a column to drop their piece down, and see the color change where it lands
+* Alternate turns between two players
+
+#### Bonus Ideas
+
+* Play against **a bot**
+
+
+## Battleship
+
+<img src="http://blogs-images.forbes.com/erikkain/files/2012/02/battleship-board-game.jpg" width=300>
+
+#### Minimum Viable Product
+
+**In addition to the core requirements above, a user should be able to...**
+
+* Select placement of their "ships" at the start of the game
+* Alternate turns between two players
+* Receive a message when they "hit" or "miss" the other player's ship
+* Decide which square of the other player's board to target
+* See their own ships with indicators of where the other player's guesses have hit and missed
+* See where their guesses have hit and missed
+
+#### Bonus Ideas
+
+* Display a timer between turns so two players don't see each other's ships
+* Play against **a bot**
+
+
+#### Hints
+* Start with just one size of ship
+* Start by building a one-dimensional battleship game that takes place on a single row instead of a square grid
+
+
+
+
+## Memory
+
+<img src="https://img1.etsystatic.com/003/0/7146482/il_570xN.470573231_6gxw.jpg" width=400>
+
+#### Minimum Viable Product
+
+**In addition to the core requirements above, a user should be able to...**
+
+* See a series of card "backs"
+* Select two cards at once. If the cards match, both should stay revealed. Otherwise, both should be hidden again. 
+* Win by matching all cards with their duplicates
+
+#### Bonus Ideas
+
+* Allow the user to do a search on giphy to get the card "fronts" for a round
+
+
