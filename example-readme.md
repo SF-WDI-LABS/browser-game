@@ -1,4 +1,4 @@
-# Racing Game
+# Browser Game
 
 *Short explanation of the project (1-2 sentences) - what is the goal of the project and/or main functionality?*
 
