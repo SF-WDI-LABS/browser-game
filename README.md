@@ -76,7 +76,7 @@ Some bonus ideas for any game are:
 * Use <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank">localStorage</a> to **keep track of game state**, even if the user refreshes the page.
 * Get creative with **inventive styling** (e.g. use css animations/transforms and hover effects, get creative with backgrounds).
 * Timing: display a **countdown timer** ("3, 2, 1, Go!"), the winning time, or the best time.
-* Integrate with a **3rd party API**: flickr, youtube, spotify, giphy, etc.
+* Integrate with a **3rd party API**: flickr, youtube, spotify, giphy, etc.  Change the background of your page based on the current weather! Wallpaper the game board with gifs based on a keyword the user submits!
 
 
 ## Racing Game
